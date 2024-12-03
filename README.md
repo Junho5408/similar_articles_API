@@ -1,5 +1,7 @@
 1.elasticSearch 연결
+
 2.해당 파이썬 파일 실행
+
 3.api 호출
   curl -X POST http://127.0.0.1:5000/similar_articles \
   -H "Content-Type: application/json" \
@@ -8,6 +10,7 @@
       "title": "테스트 제목",
       "subtitle": "테스트 소제목"
   }'
+  
 4.결과 확인
 ex) 
 [
